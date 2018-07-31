@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 spring-cloud-configserver-Git
 
 Basic example of using spring-cloud-config to retrieve configs from a git-backed server
@@ -28,3 +29,6 @@ Reload configuration from server (at runtime)
 Spring Cloud Config has a @RefreshScope mechanism to allow beans to be reinitialized on demand to fetch updated configuration values. The AppController on the client has this annotation, so it will display the new config value once the refresh endpoint is called.
 
 curl -X POST 'http://localhost:8080/employee'
+=======
+
+>>>>>>> df48bc6df649a6a1f45876051af3557b2ad52ff8
