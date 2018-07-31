@@ -27,4 +27,4 @@ Load http://localhost:8081/employee displays the employee response. Reads the eu
 Reload configuration from server (at runtime)
 Spring Cloud Config has a @RefreshScope mechanism to allow beans to be reinitialized on demand to fetch updated configuration values. The AppController on the client has this annotation, so it will display the new config value once the refresh endpoint is called.
 
-curl -X POST 'http://localhost:8080/refresh'
+curl -X POST 'http://localhost:8080/employee'
